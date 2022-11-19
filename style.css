@@ -1,5 +1,63 @@
-section{
-   
+header{
+    background-color: aqua;
+    height: 100px;
 }
+
+nav{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(49, 49, 177);
+    color: brown;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(31, 110, 84);
+    color: aqua;
+    font-size: 15px;
+}
+
+:hover{
+    background-color: rgb(33, 33, 116);
+    font-size: 15px;
+
+}
+.block-1{
+background-color: rgb(35, 117, 10);
+width: 100px;
+height: 10px;
+}
+.block-2{
+    background-color: aqua;
+
+
+}
+.footer{
+    background-color: aqua;
+
+}
+
+.container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+
+}
+.div{
+background-color: rgb(54, 139, 121);
+height: 10px;
+width: 40px;;
+margin-left: 20px;
+margin-top: 50px;
+margin-right: 40px;
+margin-bottom: 50px;
+margin-block-end: 500px;
+
+
+
+
+
+   
+
 
  
